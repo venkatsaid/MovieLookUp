@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+        <menu>
+    <item android:title="@string/popular"
+        android:id="@+id/id_popular_menu"
+        android:orderInCategory="1"
+        app:showAsAction="collapseActionView"
+        android:onClick="clickedPopular">
+    </item>
+
+    <item android:title="@string/highest_rated"
+        android:id="@+id/id_highest_rated_menu"
+        android:orderInCategory="1"
+        app:showAsAction="collapseActionView"
+        android:onClick="clickedHighestRated">
+    </item>
+    <item android:title="@string/favorites"
+        android:id="@+id/id_favorite"
+        android:orderInCategory="1"
+        app:showAsAction="collapseActionView"
+        android:onClick="clickedfavorite">
+    </item>
+        </menu>
+    </item>
+</menu>

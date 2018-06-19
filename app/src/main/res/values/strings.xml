@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Film Info</string>
+    <string name="popular_url">http://api.themoviedb.org/3/movie/popular?api_key=</string>
+    <string name="top_rating_url">http://api.themoviedb.org/3/movie/top_rated?api_key=</string>
+    <string name="image_purl">http://image.tmdb.org/t/p/w300/</string>
+    <string name="image_burl">http://image.tmdb.org/t/p/w500/</string>
+    <string name="overview"><b><u>Overview:</u></b></string>
+    <string name="title">Movie Title</string>
+    <string name="release_date">2018-01-01</string>
+    <string name="rating">"rating:8.5/10</string>
+    <string name="trailer"><b><u>Trailers</u></b></string>
+    <string name="review"><b><u>Reviews</u></b></string>
+    <string name="no_fav_added">No favorites added</string>
+    <string name="no_net_connection">No internet connection</string>
+    <string name="movieDbBaseUrl">http://api.themoviedb.org/3/movie/</string>
+    <string name="video_path">/videos?api_key=</string>
+    <string name="review_path">/reviews?api_key=</string>
+    <string name="image_poster_path">http://image.tmdb.org/t/p/w300/</string>
+    <string name="image_backdrop_path">http://image.tmdb.org/t/p/w500/</string>
+    <string name="youtube_path">https://www.youtube.com/watch?v=</string>
+    <string name="No_Trailers">No Trailers Available</string>
+    <string name="No_Reviews">No Reviews Available</string>
+    <string name="author">Author:</string>
+    <string name="content">Content:</string>
+    <string name="link">Link:</string>
+    <string name="popular">popular</string>
+    <string name="highest_rated">highest rated</string>
+    <string name="favorites">favorites</string>
+
+
+</resources>
